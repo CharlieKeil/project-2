@@ -2,6 +2,7 @@
 html {
   box-sizing: border-box;
   font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
   margin: 0;
 }
 
@@ -40,6 +41,8 @@ span {
 footer {
   background-color: #222222;
   color: #fff;
+  text-align: center;
+  padding: 1em;
 }
 
 .letters {
@@ -64,10 +67,18 @@ footer {
   text-shadow: 1px 1px 4px rgba(0,0,0,1);
 }
 
+.div h2 {
+  font-weight: 700;
+}
+
+figcaption {
+  font-size: .75em;
+}
+
 .dragon {
   background-color: #E4C22A;
   text-align: center;
-  padding: 1em 0 1em 0;
+  padding: .5em 0 .5em 0;
 }
 
 .dragon-symbol {
@@ -86,8 +97,8 @@ footer {
   background-color: #222222;
   text-align: center;
   color: #fff;
-  padding: 1em 0 1em 0;
-  position: absolute;
+  padding: .5em 0 .5em 0;
+  position: static;
 
 }
 
@@ -98,6 +109,46 @@ footer {
 }
 
 .goat-img {
+  float:right;
+  clear:right;
+  max-width: 50%;
+}
+
+.rooster {
+  background-color: #E7001D;
+  text-align: center;
+  color: #fff;
+  padding: .5em 0 .5em 0;
+  position: static;
+}
+
+.rooster-symbol {
+  float:left;
+  clear:left;
+  max-width: 50%;
+}
+
+.rooster-img {
+  float:right;
+  clear:right;
+  max-width: 50%;
+}
+
+.ox {
+  background-color: #E4C22A;
+  text-align: center;
+  color: #000;
+  padding: .5em 0 .5em 0;
+  position: static;
+}
+
+.ox-symbol {
+  float:left;
+  clear:left;
+  max-width: 50%;
+}
+
+.ox-img {
   float:right;
   clear:right;
   max-width: 50%;

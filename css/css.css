@@ -81,3 +81,24 @@ footer {
   clear:right;
   max-width: 50%;
 }
+
+.goat {
+  background-color: #222222;
+  text-align: center;
+  color: #fff;
+  padding: 1em 0 1em 0;
+  position: absolute;
+
+}
+
+.goat-symbol {
+  float:left;
+  clear:left;
+  max-width: 50%;
+}
+
+.goat-img {
+  float:right;
+  clear:right;
+  max-width: 50%;
+}

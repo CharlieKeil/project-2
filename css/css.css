@@ -8,3 +8,76 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+p {
+
+}
+
+.medallion {
+  background-color: #E7001D;
+  max-width: 25%;
+  display: inline-block;
+  margin: 220px;
+}
+
+h1 {
+
+  z-index: 1;
+
+  color: #fff;
+
+
+}
+
+span {
+  max-width: 25%;
+}
+
+footer {
+  background-color: #222222;
+  color: #fff;
+}
+
+.letters {
+  float: top;
+}
+
+.banner {
+  position:relative;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 1em;
+  width: 100%;
+  text-shadow: 1px 1px 4px rgba(0,0,0,1);
+}
+
+.dragon {
+  background-color: #E4C22A;
+  text-align: center;
+  padding: 1em 0 1em 0;
+}
+
+.dragon-symbol {
+  float:left;
+  clear:left;
+  max-width: 50%;
+}
+
+.dragon-img {
+  float:right;
+  clear:right;
+  max-width: 50%;
+}

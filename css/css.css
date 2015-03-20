@@ -16,7 +16,7 @@ body {
 
 header {
   text-align: center;
-  text-shadow: 0 2px 3px rgba(0,0,0,200);
+  text-shadow: 0 2px 3px rgba(0,0,0,1);
   padding: 1em 0 1em 0;
   background-color: #E7001D;
   position: relative;
@@ -38,45 +38,32 @@ h1 {
   bottom: 10px;
 }
 
-span {
-  max-width: 25%;
-}
-
-nav ul{
-  display: block;
-  list-style-type: none;
-  padding: 0;
+.chinese-zodiac {
   margin: 0;
+  font-size: 1rem;
 }
 
-nav li a {
-  text-decoration: none;
-  border: 1px solid #000;
+nav ol {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+}
+
+nav ol li {
+  display: block;
+  border: 1px solid black;
+  width: 50%;
+  float: left;
   background-color: #222222;
-  padding: .5em;
 }
 
-nav li a:hover{
-  color: #E4C22A;
-}
-/*I decided I liked the buttons in
-the center of their boxes instead of the left*/
-a .left {
-  float:left;
-  clear:left;
-  width: 50%;
-  text-align: center;
-}
-
-a .right {
-  float:right;
-  clear:right;
-  width: 50%;
-  text-align: center;
-}
-
-.letters {
-  float: top;
+nav ol li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin: 0;
+  padding: .5em 0 .5em .5em;
 }
 
 .banner {

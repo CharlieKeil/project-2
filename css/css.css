@@ -48,13 +48,12 @@ h1 {
   width: 100%;
   text-align: center;
   bottom: 10px;
-  clear: both;
 }
 
 .chinese-zodiac {
   margin: 0;
   font-size: 1rem;
-
+  clear: both;
 }
 
 nav ol {
@@ -86,7 +85,6 @@ nav ol li a:hover {
 }
 
 .banner {
-  position:static;
   text-align: center;
   font-size: 1.5rem;
   color: #fff;
@@ -94,17 +92,17 @@ nav ol li a:hover {
 
 .banner img {
   width: 100%;
+  overflow: hidden;
 }
 
 .banner-content {
-  position: absolute;
-  bottom: 10em;
-  width: 100%;
+  clear: both;
+  width:100%;
   text-shadow: 1px 1px 4px rgba(0,0,0,1);
   text-align: center;
   color: #fff;
-  font-size: 1.5rem;
 }
+
 
 .div h2 {
   font-weight: 700;

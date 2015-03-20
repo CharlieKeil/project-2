@@ -14,35 +14,65 @@ body {
   margin: 0;
 }
 
-p {
-
+header {
+  text-align: center;
+  text-shadow: 0 2px 3px rgba(0,0,0,200);
+  padding: 1em 0 1em 0;
+  background-color: #E7001D;
+  position: relative;
 }
 
 .medallion {
-  background-color: #E7001D;
-  max-width: 25%;
-  display: inline-block;
-  margin: 220px;
+  width: 100px;
+  position: relative;
 }
 
 h1 {
-
-  z-index: 1;
-
+  margin: 0;
   color: #fff;
-
-
+  font-size: 3.5rem;
+  position: absolute;
+  display: block;
+  width: 100%;
+  text-align: center;
+  bottom: 10px;
 }
 
 span {
   max-width: 25%;
 }
 
-footer {
+nav ul{
+  display: block;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li a {
+  text-decoration: none;
+  border: 1px solid #000;
   background-color: #222222;
-  color: #fff;
+  padding: .5em;
+}
+
+nav li a:hover{
+  color: #E4C22A;
+}
+/*I decided I liked the buttons in
+the center of their boxes instead of the left*/
+a .left {
+  float:left;
+  clear:left;
+  width: 50%;
   text-align: center;
-  padding: 1em;
+}
+
+a .right {
+  float:right;
+  clear:right;
+  width: 50%;
+  text-align: center;
 }
 
 .letters {
@@ -152,4 +182,11 @@ figcaption {
   float:right;
   clear:right;
   max-width: 50%;
+}
+
+footer {
+  background-color: #222222;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
 }
